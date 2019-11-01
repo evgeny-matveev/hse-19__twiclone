@@ -1,1 +1,40 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap&subset=cyrillic');
+
+:root {
+  --light-gray: rgba(0, 0, 0, 0.25);
+}
+body {
+  font-family: 'Fira Code', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FDFFF8;
+  box-sizing: border-box;
+}
+main {
+  width: 600px;
+  height: 100vh;
+  margin: 0 auto;
+  border-left: 1px solid var(--light-gray);
+  border-right: 1px solid var(--light-gray);
+}
+main header {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+
+
+
+
+
+
+
+
+
+/* EOF */
