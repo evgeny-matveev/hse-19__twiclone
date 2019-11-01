@@ -128,6 +128,21 @@ nav {
   mask: url(../img/bookmark-icn.svg);
   -webkit-mask: url(../img/bookmark-icn.svg);
 }
+.nav__btn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: var(--accent-color);
+  padding: 16px 55px;
+  text-decoration: none;
+  margin-top: 32px;
+  display: block;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.25);
+}
+.nav__btn:hover {
+  filter: brightness(1.25);
+}
+
 
 
 
