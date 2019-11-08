@@ -187,6 +187,11 @@ aside ul li:last-child {
 
 
 @media (max-width: 1024px) {
+  nav {
+    left: calc((100vw - 750px) / 2);
+    padding: 16px 4px 0 0;
+    transform: translateX(-250%);
+  }
   nav a span {
     display: none;
   }
@@ -211,7 +216,7 @@ aside ul li:last-child {
     background-size: cover;
   }
   main {
-    transform: translateX();
+    transform: translateX(-150px);
   }
 }
 
