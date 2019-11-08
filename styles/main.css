@@ -230,6 +230,18 @@ aside ul li:last-child {
   }
 }
 
+@media (max-width: 768px) {
+  nav {
+    left: calc((100vw - 664px) / 2);
+    transform: none;
+  }
+  aside {
+    display: none;
+  }
+  .wrapper {
+    justify-content: center;
+  }
+}
 
 
 
